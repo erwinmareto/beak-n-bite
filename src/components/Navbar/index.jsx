@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import NavMenu from "./NavMenu";
+import { logo } from "../../assets/images";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -20,9 +21,10 @@ const Navbar = () => {
           <h3 className="text-xl mb-1">Menu</h3>
         </button>
         <div className="flex flex-1 justify-center">
-          <h2 className="text-4xl font-bright-retro text-purple">
+          {/* <h2 className="text-4xl font-bright-retro text-purple">
             B<span className="text-olive">&amp;</span>B
-          </h2>
+          </h2> */}
+          <img src={logo} width={100} height={100} />
         </div>
       </nav>
       {openNav && <NavMenu toggleNav={toggleNav} />}

@@ -1,4 +1,4 @@
-import heroImg from "./foods/hero-foods.png";
+import heroImg from "./foods/hero-burgers.png";
 import mobileImg from "./foods/foods.png";
 import checkerPattern from "./patterns/checker-pattern.png";
 import shortChecker from "./patterns/short-checker.png";
@@ -12,6 +12,7 @@ import ruko from "./places/ruko.png";
 import container from "./places/container.png";
 import booth from "./places/booth.png";
 import foods from "./foods/merged.png";
+import logo from "./logo.png";
 
 export {
   heroImg,
@@ -28,4 +29,5 @@ export {
   container,
   booth,
   foods,
+  logo,
 };
