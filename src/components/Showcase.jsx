@@ -11,11 +11,9 @@ const Showcase = () => {
         <h1 className="font-bright-retro text-coral text-3xl lg:text-8xl">
           Jadi Milik Anda?
         </h1>
-        {/* <div className="transition hover:translate-x-5 hover:-translate-y-5 bg-red-600"> */}
         <button className="font-gotham text-primary text-xl bg-purple p-6 rounded-full mt-4 transition hover:scale-105 active:scale-90">
           Amankan Sekarang
         </button>
-        {/* </div> */}
       </div>
     </section>
   );
