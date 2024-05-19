@@ -45,7 +45,7 @@ const About = () => {
     { scope: aboutRef }
   );
   return (
-    <section ref={aboutRef} className="relative">
+    <section ref={aboutRef} id="about" className="relative">
       <AboutPatterns />
       <div>
         <div className="flex">
@@ -56,7 +56,7 @@ const About = () => {
             id="test"
             className="relative flex flex-col gap-8 padding z-20 lg:mx-32"
           >
-            <h1 className="title mb-4 about-text">About Us</h1>
+            <h1 className="title mb-4 about-text">Tentang Kami</h1>
             <p className="font-gotham text-olive about-text">
               <span className="text-2xl font-bright-retro text-purple">
                 Beak & Bite{" "}

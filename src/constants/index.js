@@ -2,9 +2,9 @@ import { booth, container, ruko } from "../assets/images";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  { href: "#about", label: "Tentang Kami" },
+  { href: "#vision", label: "Visi & Misi" },
+  { href: "#concepts", label: "Konsep Bisnis" },
 ];
 
 export const businessConcepts = [

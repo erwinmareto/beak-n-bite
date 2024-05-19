@@ -66,7 +66,7 @@ const Concepts = () => {
     { scope: conceptRef }
   );
   return (
-    <section ref={conceptRef} className="relative padding">
+    <section ref={conceptRef} id="concepts" className="relative padding">
       <ConceptPatterns />
       <h1 className="title text-center mb-8">Konsep Bisnis</h1>
       <div className="flex justify-center items-center gap-4 max-lg:flex-col lg:items-start">
