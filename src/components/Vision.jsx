@@ -54,7 +54,7 @@ const Vision = () => {
     { scope: visionRef }
   );
   return (
-    <section ref={visionRef} className="relative bg-coral padding">
+    <section ref={visionRef} id="vision" className="relative bg-coral padding">
       <VisionPatterns />
       <div className="flex justify-between items-start gap-8 max-lg:flex-col">
         <article ref={visionText} className="max-w-lg">
