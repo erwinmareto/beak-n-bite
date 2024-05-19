@@ -14,15 +14,15 @@ const ConceptPatterns = () => {
       />
       <img
         src={orangeFlower}
-        className="absolute -bottom-[3rem] left-[2.5rem] z-10 max-lg:hidden "
+        className="absolute -bottom-[3rem] left-[2.5rem] z-10 max-lg:hidden bottom-flowers"
       />
       <img
         src={greenFlower}
-        className="absolute bottom-[2rem] right-[32rem] z-10 max-lg:hidden "
+        className="absolute bottom-[2rem] right-[32rem] z-10 max-lg:hidden bottom-flowers"
       />
       <img
         src={purpleFlower}
-        className="absolute bottom-[1rem] right-0 z-10 max-lg:hidden "
+        className="absolute bottom-[1rem] right-0 z-10 max-lg:hidden bottom-flowers"
       />
     </>
   );
