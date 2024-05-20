@@ -26,16 +26,17 @@ const Showcase = () => {
     },
     { scope: showcaseRef }
   );
+
   return (
     <section ref={showcaseRef} className="relative my-32">
-      <img src={foods} alt="food photos" width={1440} />
+      <img src={foods} alt="food-photos" />
       <div ref={showcaseContent} className="text-center my-32">
-        <h1
+        <h2
           id="showcase-1"
           className="font-gotham text-olive text-xl lg:text-4xl"
         >
           Mau Outlet Selanjutnya
-        </h1>
+        </h2>
         <h1 className="font-bright-retro text-coral text-3xl lg:text-8xl">
           Jadi Milik Anda?
         </h1>

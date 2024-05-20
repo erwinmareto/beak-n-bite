@@ -1,7 +1,8 @@
 import { useRef } from "react";
-import VisionPatterns from "./designs/Vision";
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import VisionPatterns from "./designs/Vision";
+import { missions } from "../constants";
 
 const Vision = () => {
   const visionRef = useRef(null);
@@ -16,6 +17,7 @@ const Vision = () => {
           start: "20% center",
         },
       });
+
       tl.fromTo(
         visionRef.current,
         { scaleX: 0 },
@@ -27,6 +29,7 @@ const Vision = () => {
           transformOrigin: "left",
         }
       );
+
       tl.fromTo(
         visionText.current.children,
         { opacity: 0, x: -500 },
@@ -68,17 +71,9 @@ const Vision = () => {
         <article ref={missionText} className="max-w-lg">
           <h1 className="title mb-4">Misi</h1>
           <ul className="font-gotham text-primary list-disc">
-            <li>
-              Menyediakan makanan cepat saji yang lezat dan berkualitas tinggi
-            </li>
-            <li>
-              Mengembangkan jaringan franchise yang solid dan menguntungkan bagi
-              mitra bisnis kami
-            </li>
-            <li>
-              Terus berinovasi dalam menu dan layanan untuk memenuhi kebutuhan
-              referensi pelanggan
-            </li>
+            {missions.map((mission, index) => (
+              <li key={index}>{mission}</li>
+            ))}
           </ul>
         </article>
       </div>
