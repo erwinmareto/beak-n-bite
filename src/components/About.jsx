@@ -50,14 +50,18 @@ const About = () => {
       <div>
         <div className="flex">
           <div>
-            <img src={verticalChecker} className="object-cover h-full" />
+            <img
+              src={verticalChecker}
+              alt="checker-pattern"
+              className="object-cover h-full"
+            />
           </div>
-          <div
+          <article
             id="test"
             className="relative flex flex-col gap-8 padding z-20 lg:mx-32"
           >
             <h1 className="title mb-4 about-text">Tentang Kami</h1>
-            <p className="font-gotham text-olive about-text">
+            <p className="about-text font-gotham text-olive">
               <span className="text-2xl font-bright-retro text-purple">
                 Beak & Bite{" "}
               </span>
@@ -68,7 +72,7 @@ const About = () => {
               Kami menawarkan berbagai macam menu yang menggugah selera, mulai
               dari crispy chicken, burger, kentang goreng, dan lain-lain.
             </p>
-            <p className="font-gotham text-olive about-text">
+            <p className="about-text font-gotham text-olive">
               <span className="text-2xl font-bright-retro text-purple">
                 Beak & Bite{" "}
               </span>{" "}
@@ -82,9 +86,13 @@ const About = () => {
               makan yang memuaskan dimulai dari gigitan pertama, dan itulah yang
               kami janjikan kepada setiap pelanggan.
             </p>
-          </div>
+          </article>
           <div>
-            <img src={verticalChecker} className="object-cover h-full" />
+            <img
+              src={verticalChecker}
+              alt="checker-pattern"
+              className="object-cover h-full"
+            />
           </div>
         </div>
       </div>

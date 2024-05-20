@@ -5,14 +5,12 @@ const VisionPatterns = () => {
     <>
       <img
         src={purpleFlower}
+        alt="purple-flower"
         className="absolute -top-[3rem] right-[1rem] z-10 max-lg:hidden "
       />
-      {/* <img
-        src={greenFlower}
-        className="absolute -top-[4rem] right-[40rem] z-10 max-lg:hidden "
-      /> */}
       <img
         src={ring}
+        alt="ring"
         className="absolute -bottom-[6rem] -left-[4.5rem] z-10 max-lg:hidden "
       />
     </>

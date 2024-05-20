@@ -1,5 +1,4 @@
 import heroImg from "./foods/hero-burgers.png";
-import mobileImg from "./foods/foods.png";
 import checkerPattern from "./patterns/checker-pattern.png";
 import shortChecker from "./patterns/short-checker.png";
 import verticalChecker from "./patterns/checker-vertical.png";
@@ -16,7 +15,6 @@ import logo from "./logo.png";
 
 export {
   heroImg,
-  mobileImg,
   checkerPattern,
   shortChecker,
   verticalChecker,

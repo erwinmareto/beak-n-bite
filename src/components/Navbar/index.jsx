@@ -16,17 +16,6 @@ const Navbar = () => {
 
   useGSAP(
     () => {
-      // gsap.registerPlugin(Flip);
-      // const menuState = Flip.getState("#nav-menu, .menu-item, #header, #tag");
-
-      // Flip.from(menuState, {
-      //   duration: 1,
-      //   ease: "power4.out",
-      //   // targets: ".menu-item",
-      //   // absoluteOnLeave: true,
-      //   onEnter: (elements) =>
-      //     gsap.fromTo(elements, { opacity: 0 }, { opacity: 1 }),
-      // });
       gsap.fromTo(
         "#nav-menu",
         { scaleY: 0 },
@@ -54,7 +43,7 @@ const Navbar = () => {
             <GiHamburgerMenu
               className={`w-6 h-6 transition ${openNav && "rotate-90"}`}
             />
-            <h3 className="text-xl mb-1">Menu</h3>
+            <h4 className="text-xl">Menu</h4>
           </button>
           <div className="flex flex-1 justify-center">
             <img src={logo} alt="beak and bite logo" width={100} height={100} />
