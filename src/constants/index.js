@@ -39,3 +39,9 @@ export const businessConcepts = [
     ],
   },
 ];
+
+export const missions = [
+  "Menyediakan makanan cepat saji yang lezat dan berkualitas tinggi",
+  "Mengembangkan jaringan franchise yang solid dan menguntungkan bagi mitra bisnis kami",
+  "Terus berinovasi dalam menu dan layanan untuk memenuhi kebutuhan referensi pelanggan",
+];

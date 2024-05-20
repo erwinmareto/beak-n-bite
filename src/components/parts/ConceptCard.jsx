@@ -1,6 +1,6 @@
 const ConceptCard = ({ img, name, price, benefits }) => {
   return (
-    <article className="max-w-[25rem] flex flex-col justify-center items-center bg-coral p-6 rounded-3xl max-lg:w-full concept-card">
+    <article className="concept-card w-[25rem] flex flex-col justify-center items-center bg-coral p-6 rounded-3xl max-lg:w-full">
       <img
         src={img}
         alt={name}
@@ -10,12 +10,12 @@ const ConceptCard = ({ img, name, price, benefits }) => {
       />
       <div className="flex flex-col justify-center items-start gap-4">
         <div className="card-content">
-          <h3 className="text-4xl font-bright-retro text-purple">{name}</h3>
+          <h2 className="text-4xl font-bright-retro text-purple">{name}</h2>
           <div className="flex flex-col justify-start items-start gap-2">
             <p className="info-text">Investasi Awal</p>
-            <h3 className="text-4xl text-olive font-bright-retro">
+            <h2 className="text-4xl text-olive font-bright-retro">
               {price} JT
-            </h3>
+            </h2>
           </div>
         </div>
         <div>

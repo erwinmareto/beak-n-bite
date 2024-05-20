@@ -10,19 +10,22 @@ const ConceptPatterns = () => {
     <>
       <img
         src={flower}
+        alt="flower"
         className="absolute top-[1rem] right-[5rem] z-10 max-lg:hidden "
       />
       <img
         src={orangeFlower}
-        className="absolute -bottom-[3rem] left-[2.5rem] z-10 max-lg:hidden bottom-flowers"
+        alt="orange-flower"
+        className="bottom-flowers absolute -bottom-[3rem] left-[2.5rem] z-10 max-lg:hidden"
       />
       <img
         src={greenFlower}
-        className="absolute bottom-[2rem] right-[32rem] z-10 max-lg:hidden bottom-flowers"
+        alt="green-flower"
+        className="bottom-flowers absolute bottom-[2rem] right-[32rem] z-10 max-lg:hidden"
       />
       <img
         src={purpleFlower}
-        className="absolute bottom-[1rem] right-0 z-10 max-lg:hidden bottom-flowers"
+        className="bottom-flowers absolute bottom-[1rem] right-0 z-10 max-lg:hidden"
       />
     </>
   );
