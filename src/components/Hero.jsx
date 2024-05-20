@@ -26,7 +26,7 @@ const Hero = () => {
     { scope: heroRef }
   );
   return (
-    <section ref={heroRef} className="relative">
+    <section id="hero" ref={heroRef} className="relative">
       <img
         src={shortChecker}
         alt="checker-pattern"
