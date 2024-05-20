@@ -4,9 +4,12 @@ const NavMenu = ({ toggleNav }) => {
   return (
     <div
       id="nav-menu"
-      className="flex justify-center items-center bg-purple py-4"
+      className="flex justify-center items-center bg-coral py-4"
     >
-      <div className="flex gap-8 text-center font-bright-retro max-lg:flex-col">
+      <div
+        id="nav-links"
+        className="flex gap-8 text-center font-bright-retro max-lg:flex-col"
+      >
         {navLinks.map((link) => (
           <a
             key={link.label}

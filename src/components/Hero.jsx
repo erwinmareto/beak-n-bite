@@ -27,7 +27,7 @@ const Hero = () => {
     { scope: heroRef }
   );
   return (
-    <section ref={heroRef} className="relative">
+    <section id="hero" ref={heroRef} className="relative">
       <img src={shortChecker} className="absolute top-0" />
       <div className="flex justify-center items-center padding max-lg:flex-col">
         <div className="lg:w-1/2 max-lg:text-center">
